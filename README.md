@@ -36,3 +36,4 @@ Une GUI permet de visualiser et modifier manuellement la configuration : `http:/
 
 
 
+# training-kong
