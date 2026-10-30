@@ -1,0 +1,22 @@
+.idea
+
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+
+.terraform/
+.terragrunt-cache/
+# servroot typically is the Kong working directory for tests
+servroot
+# exclude generated packed rocks
+*.rock
+# exclude Pongo shell history
+.pongo/.ash_history
+/terraform/.terragrunt-cache/
+
+# cache des providers Terraform (TF_PLUGIN_CACHE_DIR)
+/infra/.terraform-plugin-cache/*
+!/infra/.terraform-plugin-cache/.gitkeep
+
+# macOS
+.DS_Store
